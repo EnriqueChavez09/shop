@@ -1,0 +1,18 @@
+$color: #0000ff;
+
+.prueba {
+  padding: 20px;
+  color: $color;
+}
+
+.nav {
+  padding-top: 20px;
+  &__title {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 40px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

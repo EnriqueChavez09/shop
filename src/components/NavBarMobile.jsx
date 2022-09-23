@@ -1,4 +1,3 @@
-import { AccountWidget } from "./AccountWidget";
 import { CartWidget } from "./CartWidget";
 import { MenuWidget } from "./MenuWidget";
 
@@ -11,9 +10,6 @@ export const NavBarMobile = () => {
         </a>
         <a className="nav-mobile__cart" href="/carrito">
           <CartWidget />
-        </a>
-        <a className="nav-mobile__account" href="/carrito">
-          <AccountWidget />
         </a>
         <a className="nav-mobile__menu" href="/carrito">
           <MenuWidget />

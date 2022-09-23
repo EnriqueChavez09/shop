@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
+import Cart from "./pages/Cart";
 export default function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="catalogos" element={<Catalog />} />
         <Route path="contactanos" element={<Contact />} />
         <Route path="blogs" element={<Blog />} />
+        <Route path="carrito" element={<Cart />} />
       </Routes>
     </BrowserRouter>
   );

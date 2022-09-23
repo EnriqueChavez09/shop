@@ -1,18 +1,38 @@
-$color: #0000ff;
-
-.prueba {
-  padding: 20px;
-  color: $color;
-}
-
 .nav {
-  padding-top: 20px;
-  &__title {
-    font-size: 20px;
-    text-decoration: none;
-    margin: 30px 40px;
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 10px;
+  display: none;
+  @include breakpoints(md) {
+    display: block;
+    text-align: center;
+    height: 60px;
+
+    &__logo {
+      font-family: $font-logo;
+      margin: 0px 180px;
+      text-decoration: none;
+      font-size: 60px;
+      position: relative;
+      top: 14px;
+      color: $color;
+      right: 160px;
+    }
+    &__title {
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      margin: 0px 10px;
+      background-color: $color;
+      padding: 12px 14px;
+      border-radius: 10px;
+    }
+    &__cart {
+      margin: 0px 10px;
+      position: relative;
+      top: 16px;
+    }
+    &__account {
+      margin: 0px 10px;
+      position: relative;
+      top: 16px;
+    }
   }
 }

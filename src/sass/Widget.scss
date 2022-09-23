@@ -1,0 +1,6 @@
+.image {
+  width: 40px;
+  @include breakpoints(md) {
+    width: 45px;
+  }
+}

@@ -1,0 +1,31 @@
+.nav-mobile {
+  text-align: center;
+  height: 60px;
+
+  &__logo {
+    font-family: $font-logo;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    top: 12px;
+    color: $color;
+    right: 15px;
+  }
+  &__cart {
+    position: relative;
+    top: 16px;
+  }
+  &__account {
+    margin: 0px 10px;
+    position: relative;
+    top: 16px;
+  }
+  &__menu {
+    position: relative;
+    top: 16px;
+  }
+  @include breakpoints(md) {
+    display: none;
+  }
+}

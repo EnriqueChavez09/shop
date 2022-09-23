@@ -9,10 +9,10 @@ export const NavBarMobile = () => {
           DEV3CH
         </a>
         <a className="nav-mobile__cart" href="/carrito">
-          <CartWidget />
+          <CartWidget size={"36px"}/>
         </a>
         <a className="nav-mobile__menu" href="/carrito">
-          <MenuWidget />
+          <MenuWidget size={"36px"}/>
         </a>
       </nav>
     </>

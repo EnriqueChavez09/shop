@@ -18,10 +18,10 @@ export const NavBar = () => {
           BLOGS
         </a>
         <a className="nav__cart" href="/carrito">
-          <CartWidget />
+          <CartWidget size={"45px"} />
         </a>
         <a className="nav__account" href="/carrito">
-          <AccountWidget />
+          <AccountWidget size={"45px"} />
         </a>
       </nav>
     </>

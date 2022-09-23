@@ -7,13 +7,12 @@
 
     &__logo {
       font-family: $font-logo;
-      margin: 0px 180px;
       text-decoration: none;
       font-size: 60px;
       position: relative;
-      top: 14px;
+      top: 16px;
       color: $color;
-      right: 160px;
+      right: 190px;
     }
     &__title {
       font-size: 20px;
@@ -23,16 +22,20 @@
       background-color: $color;
       padding: 12px 14px;
       border-radius: 10px;
+      position: relative;
+      left: 200px;
     }
     &__cart {
       margin: 0px 10px;
       position: relative;
       top: 16px;
+      left: 200px;
     }
     &__account {
       margin: 0px 10px;
       position: relative;
       top: 16px;
+      left: 200px;
     }
   }
 }

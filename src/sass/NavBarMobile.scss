@@ -2,22 +2,23 @@
   text-align: center;
   &__logo {
     font-family: $font-logo;
-    margin: 0px 30px;
     text-decoration: none;
     font-size: 40px;
     position: relative;
     top: 13px;
     color: $color;
-    right: 15px;
+    right: 40px;
   }
   &__cart {
     margin: 0px 10px;
     position: relative;
     top: 16px;
+    left: 40px;
   }
   &__menu {
     position: relative;
     top: 16px;
+    left: 40px;
   }
   @include breakpoints(md) {
     display: none;

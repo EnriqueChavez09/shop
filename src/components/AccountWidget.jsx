@@ -1,11 +1,11 @@
-export const AccountWidget = () => {
+import { IconContext } from "react-icons";
+import { AiOutlineUser } from "react-icons/ai";
+export const AccountWidget = ({ size }) => {
   return (
     <>
-      <img
-        className="image"
-        src="https://futbol-api.s3.us-east-2.amazonaws.com/images/acount_icon.png"
-        alt=""
-      />
+      <IconContext.Provider value={{ color: "#ef5d5d", size: size }}>
+        <AiOutlineUser />
+      </IconContext.Provider>
     </>
   );
 };

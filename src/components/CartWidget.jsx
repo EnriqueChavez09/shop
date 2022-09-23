@@ -1,11 +1,11 @@
-export const CartWidget = () => {
+import { IconContext } from "react-icons";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+export const CartWidget = ({ size }) => {
   return (
     <>
-      <img
-        className="image"
-        src="https://futbol-api.s3.us-east-2.amazonaws.com/images/cart_icon.png"
-        alt=""
-      />
+      <IconContext.Provider value={{ color: "#ef5d5d", size: size }}>
+        <AiOutlineShoppingCart />
+      </IconContext.Provider>
     </>
   );
 };

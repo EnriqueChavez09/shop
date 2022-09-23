@@ -1,11 +1,11 @@
-export const MenuWidget = () => {
+import { IconContext } from "react-icons";
+import { AiOutlineMenu } from "react-icons/ai";
+export const MenuWidget = ({ size }) => {
   return (
     <>
-      <img
-        className="image"
-        src="https://futbol-api.s3.us-east-2.amazonaws.com/images/menu_icon.png"
-        alt=""
-      />
+      <IconContext.Provider value={{ color: "#ef5d5d", size: size }}>
+        <AiOutlineMenu />
+      </IconContext.Provider>
     </>
   );
 };

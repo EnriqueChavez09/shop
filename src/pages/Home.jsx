@@ -1,6 +1,5 @@
 import React from "react";
-import { NavBar } from "../components";
-import { NavBarMobile } from "../components/NavBarMobile";
+import { NavBar, NavBarMobile } from "../components";
 
 export default function Home() {
   return (

@@ -1,5 +1,4 @@
-import { NavBar } from "../components";
-import { NavBarMobile } from "../components/NavBarMobile";
+import { NavBar, NavBarMobile } from "../components";
 
 export default function Catalog() {
   document.title = "DEV3CH | Catálogo";

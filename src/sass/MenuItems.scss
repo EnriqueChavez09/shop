@@ -1,0 +1,56 @@
+@mixin title($top: 0) {
+  position: absolute;
+  text-decoration: none;
+  display: block;
+  top: $top;
+  color: #ffffff;
+  font-size: 23px;
+  left: 40px;
+}
+.menu {
+  position: fixed;
+  font-family: Arial, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: $color;
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  &__box {
+    width: 300px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+  }
+  &__close {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+  }
+  &:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &:target &__movedown {
+    margin: 10% auto;
+  }
+  &__catalog {
+    @include title($top: 30px);
+  }
+  &__contact {
+    @include title($top: 80px);
+  }
+  &__blog {
+    @include title(130px);
+  }
+  &__account {
+    @include title(180px);
+  }
+}

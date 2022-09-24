@@ -1,5 +1,4 @@
-import { NavBar } from "../components";
-import { NavBarMobile } from "../components/NavBarMobile";
+import { NavBar, NavBarMobile } from "../components";
 
 export default function Contact() {
   document.title = "DEV3CH | Contáctanos";

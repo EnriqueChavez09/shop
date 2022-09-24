@@ -1,4 +1,5 @@
 import { CartWidget } from "./CartWidget";
+import { MenuItems } from "./MenuItems";
 import { MenuWidget } from "./MenuWidget";
 
 export const NavBarMobile = () => {
@@ -9,12 +10,13 @@ export const NavBarMobile = () => {
           DEV3CH
         </a>
         <a className="nav-mobile__cart" href="/carrito">
-          <CartWidget size={"36px"}/>
+          <CartWidget size={"36px"} />
         </a>
-        <a className="nav-mobile__menu" href="/carrito">
-          <MenuWidget size={"36px"}/>
+        <a className="nav-mobile__menu" href="#menu">
+          <MenuWidget size={"36px"} />
         </a>
       </nav>
+      <MenuItems />
     </>
   );
 };

@@ -1,0 +1,22 @@
+.home {
+  &__main {
+    background-color: $color;
+    display: block;
+    font-family: $font-secondary;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    &__image {
+      height: 300px;
+    }
+    @include breakpoints(sm) {
+      display: flex;
+      font-size: 40px;
+      &__image {
+        height: 520px;
+      }
+    }
+  }
+}

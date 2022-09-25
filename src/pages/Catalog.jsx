@@ -6,6 +6,7 @@ export default function Catalog() {
     <>
       <NavBar />
       <NavBarMobile />
+      <h1>Catálogo :)</h1>
     </>
   );
 }

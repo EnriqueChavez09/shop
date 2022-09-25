@@ -1,5 +1,9 @@
 .nav-mobile {
   text-align: center;
+  background-color: #ffffff;
+  position: sticky;
+  height: 70px;
+  top: 0px;
   &__logo {
     font-family: $font-logo;
     text-decoration: none;

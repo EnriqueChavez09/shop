@@ -6,6 +6,7 @@ export default function Blog() {
     <>
       <NavBar />
       <NavBarMobile />
+      <h1>Blogs :)</h1>
     </>
   );
 }

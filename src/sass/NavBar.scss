@@ -3,16 +3,16 @@
   @include breakpoints(md) {
     display: block;
     text-align: center;
-    height: 60px;
-
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
     &__logo {
       font-family: $font-logo;
       text-decoration: none;
       font-size: 60px;
       position: relative;
-      top: 16px;
       color: $color;
-      right: 190px;
+      right: 195px;
     }
     &__title {
       font-size: 20px;
@@ -20,22 +20,21 @@
       text-decoration: none;
       margin: 0px 10px;
       background-color: $color;
-      padding: 12px 14px;
+      padding: 10px 14px;
       border-radius: 10px;
       position: relative;
-      left: 200px;
+      left: 210px;
+      bottom: 15px;
     }
     &__cart {
       margin: 0px 10px;
       position: relative;
-      top: 16px;
-      left: 200px;
+      left: 210px;
     }
     &__account {
       margin: 0px 10px;
       position: relative;
-      top: 16px;
-      left: 200px;
+      left: 210px;
     }
   }
 }

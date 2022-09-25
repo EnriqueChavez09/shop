@@ -6,6 +6,7 @@ export default function Contact() {
     <>
       <NavBar />
       <NavBarMobile />
+      <h1>Contáctanos :)</h1>
     </>
   );
 }

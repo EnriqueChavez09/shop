@@ -3,9 +3,9 @@ import { AiOutlineClose } from "react-icons/ai";
 
 export const MenuItems = () => {
   return (
-    <section id="menu" class="menu">
-      <section class="menu__box menu__movedown">
-        <a href="#close" class="menu__close">
+    <section id="menu" className="menu">
+      <section className="menu__box menu__movedown">
+        <a href="#close" className="menu__close">
           <IconContext.Provider value={{ color: "#FFFFFF", size: "35px" }}>
             <AiOutlineClose />
           </IconContext.Provider>

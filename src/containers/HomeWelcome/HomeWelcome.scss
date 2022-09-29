@@ -1,34 +1,45 @@
 .homeWelcome {
-    background-color: $color;
-    display: block;
-    font-family: $font-secondary;
-    font-weight: 700;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
+  background-color: $color;
+  display: block;
+  font-family: $font-secondary;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  &__title {
+    padding: 10px;
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  &__image {
+    & img {
+      height: 280px;
+      border-radius: 25px;
+    }
+  }
+  @include breakpoints(sm) {
+    display: flex;
+    font-size: 40px;
     &__title {
-      padding: 10px;
+      width: 50%;
+      padding: 20px;
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 30px;
+      }
     }
     &__image {
+      width: 50%;
+      margin: 10px;
       & img {
-        height: 280px;
-        border-radius: 25px;
-      }
-    }
-    @include breakpoints(sm) {
-      display: flex;
-      font-size: 40px;
-      &__title {
-        width: 50%;
-      }
-      &__image {
-        width: 50%;
-        margin: 10px;
-        & img {
-          padding-top: 15px;
-          height: 500px;
-        }
+        padding-top: 15px;
+        height: 500px;
       }
     }
   }
-  
+}

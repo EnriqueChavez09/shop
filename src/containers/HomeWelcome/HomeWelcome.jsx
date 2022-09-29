@@ -6,8 +6,9 @@ export const HomeWelcome = () => {
       <section className="homeWelcome">
         <section className="homeWelcome__title">
           <h1>
-            Bienvenido a <br /> E-COMMERCE DEV3CH
+            Bienvenido a nuestra tienda DEV3CH
           </h1>
+          <p>No busques más!, las mejores tecnologías los encuentras aquí</p>
         </section>
         <section className="homeWelcome__image">
           <img

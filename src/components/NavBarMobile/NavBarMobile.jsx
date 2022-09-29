@@ -7,7 +7,7 @@ export const NavBarMobile = () => {
   return (
     <section id="menu" className="navBarMobile">
       <section className="navBarMobileu__box navBarMobile__movedown">
-        <a href="#close">
+        <a href="#close" className="navBarMobile__close">
           <IconContext.Provider value={{ color: "#FFFFFF", size: "35px" }}>
             <AiOutlineClose />
           </IconContext.Provider>

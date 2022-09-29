@@ -15,29 +15,20 @@
   bottom: 0;
   left: 0;
   background: $color;
-  z-index: 99999999;
   opacity: 0;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
   pointer-events: none;
-  &__box {
-    width: 300px;
-    position: relative;
-    padding: 5px 20px 13px 20px;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    transition: all 500ms ease-in;
-  }
-  a {
-    position: relative;
+  
+  &__close {
+    position: absolute;
+    right: 40px;
+    top: 40px;
   }
   &:target {
     opacity: 1;
     pointer-events: auto;
   }
   &:target &__movedown {
-    margin: 10% auto;
+    margin: 40% auto;
   }
   &__item {
     list-style: none;

@@ -1,0 +1,39 @@
+@mixin section($margin: 0px) {
+  margin: $margin;
+  max-width: 300px;
+  text-align: justify;
+  position: relative;
+  left: 35px;
+}
+@mixin title {
+  font-size: 15px;
+  font-family: $font-secondary;
+  position: relative;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footerMobile {
+  &__social {
+    @include section();
+    &__title {
+      @include title();
+    }
+  }
+  &__contact {
+    @include section();
+    &__title {
+      @include title();
+    }
+  }
+  &__newsletter {
+    @include section();
+    &__title {
+      @include title();
+    }
+  }
+  @include breakpoints(md) {
+    display: none;
+  }
+}

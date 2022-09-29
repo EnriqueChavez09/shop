@@ -1,0 +1,53 @@
+@mixin section($margin: 20px 10px) {
+  margin: $margin;
+  min-width: 295px;
+  text-align: justify;
+  position: relative;
+  left: 20px;
+}
+@mixin title {
+    font-size: 17px;
+      font-family: $font-secondary;
+      position: relative;
+      font-weight: 700;
+      bottom: 19px;
+}
+.footerDesktop {
+  display: none;
+  &__logo {
+    @include section();
+    &__title {
+      font-family: $font-logo;
+      position: relative;
+      bottom: 60px;
+      left: 50px;
+    }
+    &__subtitle {
+      font-family: $font-secondary;
+      position: relative;
+      bottom: 80px;
+      left: 50px;
+    }
+  }
+  &__social {
+    @include section();
+    &__title {
+      @include title()
+    }
+  }
+  &__contact {
+    @include section();
+    &__title {
+        @include title()
+      }
+  }
+  &__newsletter {
+    @include section();
+    &__title {
+        @include title()
+      }
+  }
+  @include breakpoints(md) {
+    display: inline-flex;
+  }
+}

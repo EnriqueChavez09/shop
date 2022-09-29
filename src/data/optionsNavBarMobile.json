@@ -1,0 +1,18 @@
+[
+  {
+    "title": "CATÁLOGO",
+    "path": "/catalogos"
+  },
+  {
+    "title": "CONTÁCTANOS",
+    "path": "/contactanos"
+  },
+  {
+    "title": "BLOGS",
+    "path": "/blogs"
+  },
+  {
+    "title": "MI CUENTA",
+    "path": "/micuenta"
+  }
+]

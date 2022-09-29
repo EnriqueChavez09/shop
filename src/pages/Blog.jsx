@@ -1,12 +1,14 @@
-import { NavBar, NavBarMobile } from "../components";
+import { BasicLayout } from "../layouts";
 
 export default function Blog() {
   document.title = "DEV3CH | Blogs";
   return (
     <>
-      <NavBar />
-      <NavBarMobile />
-      <h1>Blogs :)</h1>
+      <BasicLayout>
+        <main>
+          <h1>Blogs :)</h1>
+        </main>
+      </BasicLayout>
     </>
   );
 }

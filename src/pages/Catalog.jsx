@@ -1,12 +1,14 @@
-import { NavBar, NavBarMobile } from "../components";
+import { BasicLayout } from "../layouts";
 
 export default function Catalog() {
   document.title = "DEV3CH | Catálogo";
   return (
     <>
-      <NavBar />
-      <NavBarMobile />
-      <h1>Catálogo :)</h1>
+      <BasicLayout>
+        <main>
+          <h1>Catálogo :)</h1>
+        </main>
+      </BasicLayout>
     </>
   );
 }

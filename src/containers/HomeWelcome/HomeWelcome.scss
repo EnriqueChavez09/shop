@@ -1,0 +1,34 @@
+.homeWelcome {
+    background-color: $color;
+    display: block;
+    font-family: $font-secondary;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    &__title {
+      padding: 10px;
+    }
+    &__image {
+      & img {
+        height: 280px;
+        border-radius: 25px;
+      }
+    }
+    @include breakpoints(sm) {
+      display: flex;
+      font-size: 40px;
+      &__title {
+        width: 50%;
+      }
+      &__image {
+        width: 50%;
+        margin: 10px;
+        & img {
+          padding-top: 15px;
+          height: 500px;
+        }
+      }
+    }
+  }
+  

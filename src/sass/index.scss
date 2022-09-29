@@ -1,5 +1,8 @@
 @import "./variables.scss";
-@import "./Home.scss";
-@import "./MenuItems.scss";
-@import "./NavBar.scss";
-@import "./NavBarMobile.scss";
+@import "../components/ItemList/ItemList.scss";
+@import "../components/NavBarDesktop/NavBarDesktop.scss";
+@import "../components/NavBarMobile/NavBarMobile.scss";
+@import "../containers/HeaderDesktop/HeaderDesktop.scss";
+@import "../containers/HeaderMobile/HeaderMobile.scss";
+@import "../containers/HomeWelcome/HomeWelcome.scss";
+@import "../layouts/BasicLayout/BasiscLayout.scss";

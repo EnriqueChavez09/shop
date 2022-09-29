@@ -7,7 +7,7 @@
   font-size: 23px;
   left: 40px;
 }
-.menu {
+.navBarMobile {
   position: fixed;
   font-family: Arial, sans-serif;
   top: 0;
@@ -15,7 +15,7 @@
   bottom: 0;
   left: 0;
   background: $color;
-  z-index: 99999;
+  z-index: 99999999;
   opacity: 0;
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
@@ -29,10 +29,8 @@
     -moz-transition: all 500ms ease-in;
     transition: all 500ms ease-in;
   }
-  &__close {
-    position: absolute;
-    right: 1px;
-    bottom: 1px;
+  a {
+    position: relative;
   }
   &:target {
     opacity: 1;
@@ -41,16 +39,7 @@
   &:target &__movedown {
     margin: 10% auto;
   }
-  &__catalog {
-    @include title($top: 30px);
-  }
-  &__contact {
-    @include title($top: 80px);
-  }
-  &__blog {
-    @include title(130px);
-  }
-  &__account {
-    @include title(180px);
+  &__item {
+    list-style: none;
   }
 }

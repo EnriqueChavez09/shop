@@ -1,0 +1,29 @@
+.headerMobile {
+  display: inline-flex;
+  text-align: center;
+  background-color: #ffffff;
+  height: 70px;
+  top: 0px;
+  &__section-icon {
+    a {
+      margin: 0px 10px;
+      position: relative;
+      top: 16px;
+      left: 45px;
+    }
+  }
+  &__section-title {
+    a {
+      font-family: $font-logo;
+      text-decoration: none;
+      font-size: 40px;
+      position: relative;
+      top: 13px;
+      color: $color;
+      right: 35px;
+    }
+  }
+  @include breakpoints(md) {
+    display: none;
+  }
+}

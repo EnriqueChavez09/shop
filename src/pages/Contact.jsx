@@ -1,12 +1,14 @@
-import { NavBar, NavBarMobile } from "../components";
+import { BasicLayout } from "../layouts";
 
 export default function Contact() {
   document.title = "DEV3CH | Contáctanos";
   return (
     <>
-      <NavBar />
-      <NavBarMobile />
-      <h1>Contáctanos :)</h1>
+      <BasicLayout>
+        <main>
+          <h1>Contáctanos :)</h1>
+        </main>
+      </BasicLayout>
     </>
   );
 }

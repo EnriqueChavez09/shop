@@ -18,6 +18,16 @@
     & img {
       height: 280px;
       border-radius: 25px;
+      object-fit: cover;
+      @include breakpoints(sm) {
+        width: 350px;
+      }
+      @include breakpoints(md) {
+        max-width: 420px;
+      }
+      @include breakpoints(lg) {
+        width: 600px;
+      }
     }
   }
   @include breakpoints(sm) {

@@ -1,16 +1,19 @@
 @mixin section($margin: 20px 10px) {
   margin: $margin;
-  min-width: 295px;
+  min-width: 200px;
   text-align: justify;
   position: relative;
   left: 20px;
+  @include breakpoints(lg) {
+    min-width: 280px;
+  }
 }
 @mixin title {
-    font-size: 17px;
-      font-family: $font-secondary;
-      position: relative;
-      font-weight: 700;
-      bottom: 19px;
+  font-size: 17px;
+  font-family: $font-secondary;
+  position: relative;
+  font-weight: 700;
+  bottom: 10px;
 }
 .footerDesktop {
   display: none;
@@ -19,33 +22,33 @@
     &__title {
       font-family: $font-logo;
       position: relative;
-      bottom: 60px;
+      bottom: 40px;
       left: 50px;
     }
     &__subtitle {
       font-family: $font-secondary;
       position: relative;
-      bottom: 80px;
+      bottom: 46px;
       left: 50px;
     }
   }
   &__social {
     @include section();
     &__title {
-      @include title()
+      @include title();
     }
   }
   &__contact {
     @include section();
     &__title {
-        @include title()
-      }
+      @include title();
+    }
   }
   &__newsletter {
     @include section();
     &__title {
-        @include title()
-      }
+      @include title();
+    }
   }
   @include breakpoints(md) {
     display: inline-flex;

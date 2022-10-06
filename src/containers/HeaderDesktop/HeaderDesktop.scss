@@ -4,22 +4,38 @@
     display: inline-flex;
     &__section-title {
       position: relative;
-      right: 200px;
+      right: 40px;
+      @include breakpoints(lg) {
+        right: 200px;
+      }
       a {
         font-family: $font-logo;
         text-decoration: none;
-        font-size: 60px;
+        font-size: 50px;
         color: $color;
+        @include breakpoints(lg) {
+          font-size: 60px;
+        }
       }
     }
     &__section-navBar {
       position: relative;
-      left: 140px;
+      right: 20px;
+      top: 10px;
+      @include breakpoints(lg) {
+        left: 140px;
+        top: 15px;
+      }
     }
     &__section-icon {
       position: relative;
-      left: 200px;
-      top: 15px;
+      left: 40px;
+      top: 8px;
+      height: 50px;
+      @include breakpoints(lg) {
+        left: 200px;
+        top: 15px;
+      }
       a {
         margin: 0px 5px;
       }

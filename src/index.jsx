@@ -14,7 +14,7 @@ export default function App() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="catalogos" element={<Catalog />} />
-        <Route path="contactanos" element={<Contact />} />
+        <Route path="contacto" element={<Contact />} />
         <Route path="blogs" element={<Blog />} />
         <Route path="carrito" element={<Cart />} />
         <Route path="micuenta" element={<Account />} />

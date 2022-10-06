@@ -1,7 +1,17 @@
+* {
+  margin: 0 auto;
+}
+main {
+  max-width: 90rem;
+}
+
 @import "./variables.scss";
+@import "../components/ContactFormInput/ContactFormInput.scss";
+@import "../components/ContactFormTitle/ContactFormTitle.scss";
 @import "../components/ItemList/ItemList.scss";
 @import "../components/NavBarDesktop/NavBarDesktop.scss";
 @import "../components/NavBarMobile/NavBarMobile.scss";
+@import "../containers/ContactForm/ContactForm.scss";
 @import "../containers/FooterDesktop/FooterDesktop.scss";
 @import "../containers/FooterMobile/FooterMobile.scss";
 @import "../containers/HeaderDesktop/HeaderDesktop.scss";

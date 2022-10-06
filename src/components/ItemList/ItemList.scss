@@ -16,6 +16,16 @@
     border-radius: 10px;
     background-color: $color;
     font-size: 20px;
+    padding: 5px 14px;
+    margin-left: 15px;
+  }
+  @include breakpoints(lg) {
+    top: 0px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    background-color: $color;
+    font-size: 20px;
     padding: 7px 14px;
     margin-left: 15px;
   }

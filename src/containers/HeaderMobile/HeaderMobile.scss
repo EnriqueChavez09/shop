@@ -10,6 +10,9 @@
       position: relative;
       top: 16px;
       left: 45px;
+      @include breakpoints(sm) {
+        left: 210px;
+      }
     }
   }
   &__section-title {
@@ -21,6 +24,9 @@
       top: 13px;
       color: $color;
       right: 35px;
+      @include breakpoints(sm) {
+        right: 200px;
+      }
     }
   }
   @include breakpoints(md) {

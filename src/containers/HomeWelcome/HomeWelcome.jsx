@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const HomeWelcome = () => {
+  const [first, setfirst] = useState(0);
+  const hiWorld = () => {
+    setfirst(first + 1);
+    console.log(first);
+  };
+  // useEffect(() => {
+  //   setfirst(first + 1);
+  // }, []);
+
   return (
     <>
       <section className="homeWelcome">
         <section className="homeWelcome__title">
-          <h1>
-            Bienvenido a nuestra tienda DEV3CH
-          </h1>
+          <h1 onClick={hiWorld}>Bienvenido a nuestra tienda DEV3CH</h1>
           <p>No busques más!, las mejores tecnologías los encuentras aquí</p>
         </section>
         <section className="homeWelcome__image">

@@ -1,12 +1,13 @@
+import { ContactForm } from "../containers";
 import { BasicLayout } from "../layouts";
 
 export default function Contact() {
-  document.title = "DEV3CH | Contáctanos";
+  document.title = "DEV3CH | Contacto";
   return (
     <>
       <BasicLayout>
         <main>
-          <h1>Contáctanos :)</h1>
+          <ContactForm />
         </main>
       </BasicLayout>
     </>

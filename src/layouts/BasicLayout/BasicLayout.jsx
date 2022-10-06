@@ -12,7 +12,7 @@ export const BasicLayout = ({children}) => {
             <HeaderDesktop />
             <HeaderMobile />
           </header>
-          <section>{children}</section>
+          {children}
           <footer>
             <FooterMobile />
             <FooterDesktop />

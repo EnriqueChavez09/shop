@@ -1,0 +1,30 @@
+.contactFormTitle {
+  text-align: center;
+  margin: 30px 0px;
+  h2 {
+    font-size: 30px;
+    margin: 5px 0;
+    @include breakpoints(sm) {
+      font-size: 40px;
+    }
+    @include breakpoints(md) {
+      font-size: 40px;
+    }
+    @include breakpoints(lg) {
+      font-size: 40px;
+    }
+  }
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+    @include breakpoints(sm) {
+      font-size: 20px;
+    }
+    @include breakpoints(md) {
+      font-size: 40px;
+    }
+    @include breakpoints(lg) {
+      font-size: 40px;
+    }
+  }
+}

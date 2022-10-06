@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Free shipping",
+    "description": "Free on orders over $50",
+    "image": "/assets/free_shipping.png"
+  },
+  {
+    "title": "30 Days quarantee",
+    "description": "30 Days money back",
+    "image": "/assets/days_quarantee.png"
+  },
+  {
+    "title": "The best quality",
+    "description": "At the best price",
+    "image": "/assets/best_quality.png"
+  },
+  {
+    "title": "Fast delivery",
+    "description": "Unlimited free shipping",
+    "image": "/assets/fast delivery.png"
+  },
+  {
+    "title": "24/7 Suort",
+    "description": "Get qualified support",
+    "image": "/assets/support.png"
+  }
+]

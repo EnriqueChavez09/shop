@@ -1,0 +1,13 @@
+.homeQuality {
+  margin: 30px 0;
+  text-align: center;
+  @include breakpoints(sm) {
+    margin: 40px 10%;
+  }
+  @include breakpoints(md) {
+    margin: 50px 10%;
+  }
+  @include breakpoints(lg) {
+    margin: 50px 15%;
+  }
+}

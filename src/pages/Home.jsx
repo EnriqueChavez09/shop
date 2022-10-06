@@ -1,4 +1,4 @@
-import { HomeWelcome } from "../containers";
+import { HomeQuality, HomeWelcome } from "../containers";
 import { BasicLayout } from "../layouts";
 
 export default function Home() {
@@ -7,6 +7,7 @@ export default function Home() {
       <BasicLayout>
         <main>
           <HomeWelcome />
+          <HomeQuality />
         </main>
       </BasicLayout>
     </>

@@ -2,7 +2,7 @@
   display: none;
   @include breakpoints(md) {
     display: inline-flex;
-    &__section-title {
+    &__div-title {
       position: relative;
       right: 40px;
       @include breakpoints(lg) {
@@ -18,7 +18,7 @@
         }
       }
     }
-    &__section-navBar {
+    &__div-navBar {
       position: relative;
       right: 20px;
       top: 10px;
@@ -27,7 +27,7 @@
         top: 15px;
       }
     }
-    &__section-icon {
+    &__div-icon {
       position: relative;
       left: 40px;
       top: 8px;

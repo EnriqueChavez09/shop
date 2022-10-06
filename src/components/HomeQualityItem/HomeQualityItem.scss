@@ -1,0 +1,19 @@
+.homeQualityItem {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin: 5px;
+  @include breakpoints(sm) {
+    width: 220px;
+    margin: 10px;
+  }
+  @include breakpoints(lg) {
+    width: 250px;
+  }
+  &__image {
+    width: 50px;
+    @include breakpoints(sm) {
+      width: auto;
+    }
+  }
+}

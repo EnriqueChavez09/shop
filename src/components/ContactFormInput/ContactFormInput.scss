@@ -1,31 +1,39 @@
 .contactFormInput {
-  margin: 20px 10%;
-  text-align: center;
+  margin: 20px 5%;
   @include breakpoints(sm) {
-    margin: 20px 15%;
+    margin: 20px 5%;
   }
   @include breakpoints(md) {
-    margin: 20px 20%;
+    margin: 20px 10%;
   }
   @include breakpoints(lg) {
-    margin: 20px 30%;
+    margin: 20px 5%;
   }
-  form {
-    div {
+  &__form {
+    &__input {
       margin: 20px 0px;
       p {
         text-align: left;
-        padding-left: 25px;
         margin: 5px 0px;
+        font-size: 14px;
+        @include breakpoints(sm) {
+          font-size: 16px;
+        }
+        @include breakpoints(md) {
+          font-size: 18px;
+        }
+        @include breakpoints(lg) {
+          font-size: 20px;
+        }
       }
       input {
-        width: 250px;
+        width: 92%;
         height: 40px;
         border-radius: 10px;
         font-size: 15px;
         padding: 0px 10px;
         @include breakpoints(sm) {
-          width: 450px;
+          width: 95%;
         }
         &::placeholder {
           font-size: 15px;
@@ -33,16 +41,19 @@
         }
       }
     }
-    button {
-      width: 150px;
-      font-size: 15px;
-      height: 35px;
-      border-radius: 10px;
-      cursor: pointer;
-      border: none;
-      &:hover {
-        color: #ffffff;
-        background-color: $color;
+    &__button {
+      text-align: center;
+      button {
+        width: 150px;
+        font-size: 15px;
+        height: 35px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        &:hover {
+          color: #ffffff;
+          background-color: $color;
+        }
       }
     }
   }

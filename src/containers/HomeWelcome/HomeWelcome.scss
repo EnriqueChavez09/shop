@@ -7,20 +7,52 @@
   text-align: center;
   &__title {
     padding: 10px;
+    @include breakpoints(sm) {
+      width: 50%;
+      padding: 20px;
+    }
     h1 {
-      font-size: 35px;
+      font-size: 30px;
+      @include breakpoints(sm) {
+        padding-top: 30px;
+        font-size: 40px;
+      }
+      @include breakpoints(md) {
+        padding-top: 10px;
+        font-size: 50px;
+      }
+      @include breakpoints(lg) {
+        padding-top: 40px;
+        font-size: 60px;
+      }
     }
     p {
-      font-size: 20px;
+      font-size: 15px;
+      @include breakpoints(sm) {
+        font-size: 18px;
+      }
+      @include breakpoints(md) {
+        font-size: 20px;
+        padding: 5px 10px;
+      }
+      @include breakpoints(lg) {
+        font-size: 32px;
+        padding: 5px 20px;
+      }
     }
   }
   &__image {
+    @include breakpoints(sm) {
+      width: 50%;
+    }
     & img {
-      height: 280px;
       border-radius: 25px;
       object-fit: cover;
+      width: 300px;
+      padding-top: 15px;
+      padding-bottom: 10px;
       @include breakpoints(sm) {
-        width: 350px;
+        width: 300px;
       }
       @include breakpoints(md) {
         max-width: 420px;
@@ -32,24 +64,5 @@
   }
   @include breakpoints(sm) {
     display: flex;
-    font-size: 40px;
-    &__title {
-      width: 50%;
-      padding: 20px;
-      h1 {
-        font-size: 50px;
-      }
-      p {
-        font-size: 30px;
-      }
-    }
-    &__image {
-      width: 50%;
-      margin: 10px;
-      & img {
-        padding-top: 15px;
-        height: 500px;
-      }
-    }
   }
 }

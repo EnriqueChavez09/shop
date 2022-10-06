@@ -1,0 +1,11 @@
+.contactForm {
+  @include breakpoints(sm) {
+    margin: 20px 15%;
+  }
+  @include breakpoints(md) {
+    margin: 20px 20%;
+  }
+  @include breakpoints(lg) {
+    margin: 20px 25%;
+  }
+}

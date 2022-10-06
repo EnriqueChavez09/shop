@@ -8,10 +8,10 @@
       font-size: 40px;
     }
     @include breakpoints(md) {
-      font-size: 40px;
+      font-size: 50px;
     }
     @include breakpoints(lg) {
-      font-size: 40px;
+      font-size: 60px;
     }
   }
   p {
@@ -21,10 +21,10 @@
       font-size: 20px;
     }
     @include breakpoints(md) {
-      font-size: 40px;
+      font-size: 25px;
     }
     @include breakpoints(lg) {
-      font-size: 40px;
+      font-size: 30x;
     }
   }
 }

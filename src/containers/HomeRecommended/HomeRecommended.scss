@@ -1,0 +1,12 @@
+.homeRecommended {
+  margin: 10px 30px 30px 30px;
+  &__title {
+    font-family: $font-secondary;
+    font-size: 35px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

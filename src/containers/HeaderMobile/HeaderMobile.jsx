@@ -5,12 +5,10 @@ import { NavBarMobile } from "../../components";
 export const HeaderMobile = () => {
   return (
     <section className="headerMobile">
-      <section className="headerMobile__section-title">
-        <a href="/">
-          DEV3CH
-        </a>
-      </section>
-      <section className="headerMobile__section-icon">
+      <div className="headerMobile__section-title">
+        <a href="/">DEV3CH</a>
+      </div>
+      <div className="headerMobile__section-icon">
         <a className="nav-mobile__cart" href="/carrito">
           <IconContext.Provider value={{ color: "#ef5d5d", size: "36px" }}>
             <AiOutlineShoppingCart />
@@ -21,10 +19,10 @@ export const HeaderMobile = () => {
             <AiOutlineMenu />
           </IconContext.Provider>
         </a>
-      </section>
-      <section className="headerMobile__section-navBar">
+      </div>
+      <div className="headerMobile__section-navBar">
         <NavBarMobile />
-      </section>
+      </div>
     </section>
   );
 };

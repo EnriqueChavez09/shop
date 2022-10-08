@@ -1,16 +1,4 @@
-* {
-  margin: 0 auto;
-}
-header {
-  max-width: 90rem;
-}
-main {
-  max-width: 90rem;
-}
-footer {
-  max-width: 90rem;
-}
-
+@import "global.scss";
 @import "./variables.scss";
 @import "../components/ContactFormInput/ContactFormInput.scss";
 @import "../components/ContactFormTitle/ContactFormTitle.scss";
@@ -18,6 +6,7 @@ footer {
 @import "../components/FooterMobileSocial/FooterMobileSocial.scss";
 @import "../components/HomeQualityItem/HomeQualityItem.scss";
 @import "../components/ItemList/ItemList.scss";
+@import "../components/ItemProduct/ItemProduct.scss";
 @import "../components/NavBarDesktop/NavBarDesktop.scss";
 @import "../components/NavBarMobile/NavBarMobile.scss";
 @import "../containers/ContactForm/ContactForm.scss";
@@ -26,5 +15,6 @@ footer {
 @import "../containers/HeaderDesktop/HeaderDesktop.scss";
 @import "../containers/HeaderMobile/HeaderMobile.scss";
 @import "../containers/HomeQuality/HomeQuality.scss";
+@import "../containers/HomeRecommended/HomeRecommended.scss";
 @import "../containers/HomeWelcome/HomeWelcome.scss";
 @import "../layouts/BasicLayout/BasiscLayout.scss";

@@ -4,4 +4,5 @@ export * from "./FooterMobile/FooterMobile";
 export * from "./HeaderDesktop/HeaderDesktop";
 export * from "./HeaderMobile/HeaderMobile";
 export * from "./HomeQuality/HomeQuality";
+export * from "./HomeRecommended/HomeRecommended";
 export * from "./HomeWelcome/HomeWelcome";

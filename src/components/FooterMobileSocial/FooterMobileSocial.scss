@@ -1,0 +1,8 @@
+.footerMobileSocial {
+  display: flex;
+  justify-content: space-evenly;
+  &__icon {
+    height: 30px;
+    margin: 0;
+  }
+}

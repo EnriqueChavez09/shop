@@ -1,12 +1,12 @@
 .headerDesktop {
   display: none;
   @include breakpoints(md) {
-    display: inline-flex;
+    display: flex;
     &__div-title {
       position: relative;
-      right: 40px;
+      right: 20px;
       @include breakpoints(lg) {
-        right: 200px;
+        right: 70px;
       }
       a {
         font-family: $font-logo;
@@ -29,11 +29,11 @@
     }
     &__div-icon {
       position: relative;
-      left: 40px;
+      left: 20px;
       top: 8px;
       height: 50px;
       @include breakpoints(lg) {
-        left: 200px;
+        left: 70px;
         top: 15px;
       }
       a {

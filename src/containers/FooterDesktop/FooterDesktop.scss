@@ -1,9 +1,9 @@
-@mixin section($margin: 20px 10px) {
-  margin: $margin;
+@mixin section($padding: 10px) {
+  margin: 20px 0px;
   min-width: 200px;
   text-align: justify;
   position: relative;
-  left: 20px;
+  padding: $padding;
   @include breakpoints(lg) {
     min-width: 280px;
   }
@@ -13,23 +13,30 @@
   font-family: $font-secondary;
   position: relative;
   font-weight: 700;
-  bottom: 10px;
+  text-align: center;
 }
 .footerDesktop {
   display: none;
+  @include breakpoints(md) {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  img {
+    padding-left: 15px;
+  }
   &__logo {
     @include section();
     &__title {
       font-family: $font-logo;
       position: relative;
       bottom: 40px;
-      left: 50px;
+      left: 65px;
     }
     &__subtitle {
       font-family: $font-secondary;
       position: relative;
       bottom: 46px;
-      left: 50px;
+      left: 65px;
     }
   }
   &__social {
@@ -43,14 +50,40 @@
     &__title {
       @include title();
     }
+    &__paragraph {
+      font-family: $font-secondary;
+      font-size: 13px;
+      padding-left: 15px;
+    }
   }
   &__newsletter {
-    @include section();
+    @include section($padding: 10px 0px);
     &__title {
       @include title();
     }
-  }
-  @include breakpoints(md) {
-    display: inline-flex;
+    &__form {
+      display: flex;
+      flex-wrap: wrap;
+      input {
+        height: 25px;
+        border-radius: 5px;
+        flex-grow: 1;
+        margin: 5px;
+      }
+      button {
+        margin: 5px;
+        min-width: 100px;
+        height: 30px;
+        border: none;
+        background-color: $color;
+        border-radius: 5px;
+        flex-grow: 1;
+        cursor: pointer;
+        color: #ffffff;
+        @include breakpoints(lg) {
+          min-width: 30px;
+        }
+      }
+    }
   }
 }

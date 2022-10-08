@@ -5,8 +5,13 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  @include breakpoints(sm) {
+    display: flex;
+    justify-content: space-evenly;
+  }
   &__title {
     padding: 10px;
+    margin: 0;
     @include breakpoints(sm) {
       width: 50%;
       padding: 20px;
@@ -43,7 +48,7 @@
   }
   &__image {
     @include breakpoints(sm) {
-      width: 50%;
+      margin: 0;
     }
     & img {
       border-radius: 25px;
@@ -52,7 +57,7 @@
       padding-top: 15px;
       padding-bottom: 10px;
       @include breakpoints(sm) {
-        width: 300px;
+        width: 200px;
       }
       @include breakpoints(md) {
         max-width: 420px;
@@ -61,8 +66,5 @@
         width: 600px;
       }
     }
-  }
-  @include breakpoints(sm) {
-    display: flex;
   }
 }

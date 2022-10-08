@@ -1,9 +1,14 @@
 .headerMobile {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
   background-color: #ffffff;
   height: 70px;
   top: 0px;
+  min-width: 250px;
+  @include breakpoints(sm) {
+    min-width: 576px;
+  }
   &__section-icon {
     a {
       margin: 0px 10px;
@@ -11,7 +16,7 @@
       top: 16px;
       left: 45px;
       @include breakpoints(sm) {
-        left: 210px;
+        left: 140px;
       }
     }
   }
@@ -23,9 +28,9 @@
       position: relative;
       top: 13px;
       color: $color;
-      right: 35px;
+      right: 10px;
       @include breakpoints(sm) {
-        right: 200px;
+        right: 40px;
       }
     }
   }

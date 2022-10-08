@@ -1,20 +1,32 @@
 @mixin section($margin: 0px) {
   margin: $margin;
-  max-width: 300px;
+  min-width: 200px;
   text-align: justify;
   position: relative;
-  left: 35px;
+  flex-grow: 1;
+  @include breakpoints(sm) {
+    min-width: 150px;
+  }
 }
 @mixin title {
   font-size: 15px;
   font-family: $font-secondary;
   position: relative;
+  text-align: center;
   font-weight: 700;
-  margin: 0;
+  margin: 10px 0 0 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .footerMobile {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  margin: 0 50px;
+  @include breakpoints(sm) {
+    display: flex;
+    justify-content: space-evenly;
+  }
   &__social {
     @include section();
     &__title {
@@ -26,11 +38,38 @@
     &__title {
       @include title();
     }
+    &__paragraph {
+      text-align: center;
+    }
   }
   &__newsletter {
     @include section();
     &__title {
       @include title();
+    }
+    &__form {
+      display: flex;
+      flex-wrap: wrap;
+      input {
+        height: 25px;
+        border-radius: 5px;
+        flex-grow: 1;
+        margin: 5px;
+      }
+      button {
+        margin: 5px;
+        min-width: 200px;
+        height: 30px;
+        border: none;
+        background-color: $color;
+        border-radius: 5px;
+        flex-grow: 1;
+        cursor: pointer;
+        color: #ffffff;
+        @include breakpoints(sm) {
+          min-width: 30px;
+        }
+      }
     }
   }
   @include breakpoints(md) {

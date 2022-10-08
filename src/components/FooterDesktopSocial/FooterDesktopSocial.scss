@@ -1,0 +1,25 @@
+.footerDesktopSocial {
+  &__icon {
+    display: flex;
+    height: 40px;
+    a {
+      position: relative;
+      left: 10px;
+      text-decoration: none;
+      color: black;
+      width: 100%;
+      p {
+        font-family: $font-secondary;
+        position: relative;
+        left: 35px;
+        bottom: 30px;
+        font-size: 13px;
+        @include breakpoints(lg) {
+          left: 40px;
+          font-size: 16px;
+          bottom: 33px;
+        }
+      }
+    }
+  }
+}

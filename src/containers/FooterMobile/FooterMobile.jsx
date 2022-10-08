@@ -1,19 +1,29 @@
 import React from "react";
+import { FooterMobileSocial } from "../../components";
 
 export const FooterMobile = () => {
   return (
-    <section className="footerMobile">
-      <section className="footerMobile__social">
+    <section id="FooterMobile" className="footerMobile">
+      <div className="footerMobile__social">
         <p className="footerMobile__social__title">Redes Sociales</p>
-      </section>
-      <section className="footerMobile__contact">
+        <FooterMobileSocial />
+      </div>
+      <div className="footerMobile__contact">
         <p className="footerMobile__contact__title">Contactos</p>
-        <p>+51 956 346 858</p>
-        <p>rchavezs@uni.pe</p>
-      </section>
-      <section className="footerMobile__newsletter">
+        <p className="footerMobile__contact__paragraph">
+          Celular: +51 956346858
+        </p>
+        <p className="footerMobile__contact__paragraph">
+          Email: rchavezs@uni.pe
+        </p>
+      </div>
+      <div className="footerMobile__newsletter">
         <p className="footerMobile__newsletter__title">Newsletter</p>
-      </section>
+        <form className="footerMobile__newsletter__form">
+          <input type="email" placeholder="Enter e-mail" />
+          <button>Enviar</button>
+        </form>
+      </div>
     </section>
   );
 };

@@ -5,8 +5,8 @@ export const HomeRecommended = () => {
     <section id="HomeRecommended" className="homeRecommended">
       <p className="homeRecommended__title">Recomendados</p>
       <div className="homeRecommended__item">
-        {items.map((item, index) => {
-          return <ItemProduct key={index} item={item} />;
+        {items.map((item) => {
+          return <ItemProduct key={item.id} {...item} />;
         })}
       </div>
     </section>

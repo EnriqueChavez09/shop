@@ -2,12 +2,13 @@
   display: none;
   @include breakpoints(md) {
     display: flex;
-    &__div-title {
+    justify-content: space-evenly;
+    &__title {
       position: relative;
-      right: 20px;
-      @include breakpoints(lg) {
-        right: 70px;
-      }
+      margin: 0;
+      width: 23.9%;
+      // @include breakpoints(lg) {
+      // }
       a {
         font-family: $font-logo;
         text-decoration: none;
@@ -18,23 +19,32 @@
         }
       }
     }
-    &__div-navBar {
+    &__navBar {
+      width: 64.1%;
       position: relative;
-      right: 20px;
       top: 10px;
+      margin: 0;
       @include breakpoints(lg) {
-        left: 140px;
+        padding-left: 30%;
+        margin: 0;
         top: 15px;
       }
     }
-    &__div-icon {
+    &__icon {
+      display: flex;
+      justify-content: space-evenly;
+      width: 12%;
       position: relative;
-      left: 20px;
       top: 8px;
       height: 50px;
+      margin: 0;
       @include breakpoints(lg) {
-        left: 70px;
+        margin: 0;
         top: 15px;
+      }
+      &__totalItem {
+        position: absolute;
+        top: -3px;
       }
       a {
         margin: 0px 5px;

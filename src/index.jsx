@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
 export default function App() {
   return (
     <BrowserRouter>
@@ -26,6 +28,8 @@ export default function App() {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );

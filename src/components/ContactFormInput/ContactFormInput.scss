@@ -29,15 +29,20 @@
       input {
         width: 92%;
         height: 40px;
-        border-radius: 10px;
         font-size: 15px;
         padding: 0px 10px;
+        border: none;
+        border-bottom: 3px solid $color;
         @include breakpoints(sm) {
           width: 95%;
         }
         &::placeholder {
           font-size: 15px;
           padding-left: 10px;
+        }
+        &:focus {
+          outline: none;
+          background: linear-gradient(to bottom, transparent, #f2f2f2);
         }
       }
     }

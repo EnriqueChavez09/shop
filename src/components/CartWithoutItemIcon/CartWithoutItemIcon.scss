@@ -1,0 +1,23 @@
+.cartWithoutItemIcon {
+  border-radius: 20px 20px 0 0;
+  background-color: #ffffff;
+  margin: 20px 15% 0px 15%;
+  display: flex;
+  &__totalItem {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 25px;
+    left: 50.5%;
+    top: 150px;
+  }
+  svg {
+    padding-top: 50px;
+  }
+}

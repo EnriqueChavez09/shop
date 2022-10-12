@@ -27,7 +27,7 @@
       font-size: 40px;
       position: relative;
       top: 13px;
-      color: $color;
+      color: $primary-color;
       right: 10px;
       @include breakpoints(sm) {
         right: 40px;

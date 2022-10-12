@@ -1,5 +1,7 @@
 @import "global.scss";
 @import "./variables.scss";
+@import "../components/CartWithoutItemContent/CartWithoutItemContent.scss";
+@import "../components/CartWithoutItemIcon/CartWithoutItemIcon.scss";
 @import "../components/ContactFormInput/ContactFormInput.scss";
 @import "../components/ContactFormTitle/ContactFormTitle.scss";
 @import "../components/FooterDesktopSocial/FooterDesktopSocial.scss";
@@ -9,6 +11,9 @@
 @import "../components/ItemProduct/ItemProduct.scss";
 @import "../components/NavBarDesktop/NavBarDesktop.scss";
 @import "../components/NavBarMobile/NavBarMobile.scss";
+@import "../components/TotalItemAdd/TotalItemAdd.scss";
+@import "../containers/CartDetail/CartDetail.scss";
+@import "../containers/CartWithoutItem/CartWithoutItem.scss";
 @import "../containers/ContactForm/ContactForm.scss";
 @import "../containers/FooterDesktop/FooterDesktop.scss";
 @import "../containers/FooterMobile/FooterMobile.scss";
@@ -18,4 +23,3 @@
 @import "../containers/HomeRecommended/HomeRecommended.scss";
 @import "../containers/HomeWelcome/HomeWelcome.scss";
 @import "../layouts/BasicLayout/BasiscLayout.scss";
-@import "../components/TotalItemAdd/TotalItemAdd.scss";

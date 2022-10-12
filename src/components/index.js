@@ -1,3 +1,5 @@
+export * from "./CartWithoutItemContent/CartWithoutItemContent";
+export * from "./CartWithoutItemIcon/CartWithoutItemIcon";
 export * from "./ContactFormInput/ContactFormInput";
 export * from "./ContactFormTitle/ContactFormTitle";
 export * from "./FooterDesktopSocial/FooterDesktopSocial";

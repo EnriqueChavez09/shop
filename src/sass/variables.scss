@@ -3,7 +3,10 @@
 
 $font-logo: "Rubik Dirt", cursive;
 $font-secondary: "Reem Kufi Fun", sans-serif;
-$color: #ef5d5d;
+$primary-color: #e26868;
+$secondary-color: #ff8787;
+$tertiary-color: #ededed;
+$quaternary-color: #d8d9cf;
 
 @mixin breakpoints($point) {
   @if $point == sm {

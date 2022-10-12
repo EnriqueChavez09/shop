@@ -1,0 +1,29 @@
+.cartWithoutItemContent {
+  border-radius: 0 0 20px 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  margin: 0px 15% 20px 15%;
+  text-align: center;
+  &__title {
+    font-size: 40px;
+  }
+  &__paragraph {
+    font-size: 20px;
+  }
+  &__button {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $secondary-color;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 17px;
+    }
+  }
+}

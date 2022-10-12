@@ -32,7 +32,7 @@
         font-size: 15px;
         padding: 0px 10px;
         border: none;
-        border-bottom: 3px solid $color;
+        border-bottom: 3px solid $primary-color;
         @include breakpoints(sm) {
           width: 95%;
         }
@@ -57,7 +57,7 @@
         border: none;
         &:hover {
           color: #ffffff;
-          background-color: $color;
+          background-color: $primary-color;
         }
       }
     }

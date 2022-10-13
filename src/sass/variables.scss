@@ -25,3 +25,17 @@ $quaternary-color: #d8d9cf;
     }
   }
 }
+@mixin button_counter($margin: 0 5px, $width: 30px, $height: 30px) {
+  font-size: 20px;
+  margin: $margin;
+  width: $width;
+  height: $height;
+  border: 1px solid #ef5d5d;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #ef5d5d;
+  cursor: pointer;
+  &:disabled {
+    opacity: 0.3;
+  }
+}

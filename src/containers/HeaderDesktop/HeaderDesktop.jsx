@@ -20,7 +20,7 @@ export const HeaderDesktop = () => {
             <AiOutlineShoppingCart />
           </IconContext.Provider>
         </a>
-        <a href="/carrito">
+        <a href="/micuenta">
           <IconContext.Provider value={{ color: "#ef5d5d", size: "45px" }}>
             <AiOutlineUser />
           </IconContext.Provider>

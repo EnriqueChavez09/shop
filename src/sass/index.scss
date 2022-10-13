@@ -1,5 +1,9 @@
 @import "global.scss";
 @import "./variables.scss";
+@import "../components/CartDetailItem/CartDetailItem.scss";
+@import "../components/CartDetailItemProduct/CartDetailItemProduct.scss";
+@import "../components/CartDetailSummary/CartDetailSummary.scss";
+@import "../components/CartDetailSummaryCard/CartDetailSummaryCard.scss";
 @import "../components/CartWithoutItemContent/CartWithoutItemContent.scss";
 @import "../components/CartWithoutItemIcon/CartWithoutItemIcon.scss";
 @import "../components/ContactFormInput/ContactFormInput.scss";

@@ -1,0 +1,26 @@
+.cartDetailItem {
+  &__title {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  &__button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    button {
+      color: #ffffff;
+      width: 150px;
+      height: 30px;
+      background-color: $secondary-color;
+      text-decoration: none;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
+}

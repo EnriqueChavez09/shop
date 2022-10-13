@@ -2,4 +2,10 @@
   display: flex;
   background-color: $tertiary-color;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0;
+  @include breakpoints(md) {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
 }

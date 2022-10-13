@@ -9,7 +9,15 @@
   @include breakpoints(sm) {
     min-width: 576px;
   }
-  &__section-icon {
+  &__icon {
+    &__totalItem {
+      position: absolute;
+      top: 10px;
+      left: 79%;
+      @include breakpoints(sm) {
+        left: 76%;
+      }
+    }
     a {
       margin: 0px 10px;
       position: relative;
@@ -20,7 +28,7 @@
       }
     }
   }
-  &__section-title {
+  &__title {
     a {
       font-family: $font-logo;
       text-decoration: none;

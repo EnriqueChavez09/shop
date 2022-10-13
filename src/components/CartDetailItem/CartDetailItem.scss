@@ -1,4 +1,9 @@
 .cartDetailItem {
+  margin: 0;
+  @include breakpoints(md) {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
   &__title {
     font-size: 20px;
     margin: 20px auto;

@@ -5,7 +5,8 @@
     "description": "Free on orders over $50",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/18164767_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 1000
+    "price": 1000,
+    "slug": "Monitor-HP-FHD"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "description": "30 Days money back",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/17707684_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 250
+    "price": 250,
+    "slug": "Batidora-de-Mano"
   },
   {
     "id": 3,
@@ -22,6 +24,8 @@
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_114411700_1000639_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
     "price": 100
+    ,
+    "slug": "Tecnología-de-protección"
   },
   {
     "id": 4,
@@ -29,7 +33,8 @@
     "description": "Unlimited free shipping",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/18909902_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 120
+    "price": 120,
+    "slug": "Kit-Gamer-Teclado"
   },
   {
     "id": 5,
@@ -37,7 +42,8 @@
     "description": "Get qualified support",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_114139358_896570_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 80
+    "price": 80,
+    "slug": "Lenovo-Audifono-Gamer"
   },
   {
     "id": 6,
@@ -45,7 +51,8 @@
     "description": "30 Days money back",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/18889122_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 410
+    "price": 410,
+    "slug": "Silla-Gamer-Dreizt"
   },
   {
     "id": 7,
@@ -53,7 +60,8 @@
     "description": "At the best price",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/18194846_2?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 50
+    "price": 50,
+    "slug": "Cooler-para-Laptop-Cruiser-AB021"
   },
   {
     "id": 8,
@@ -61,7 +69,8 @@
     "description": "Unlimited free shipping",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_113630645_684735_1?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 600
+    "price": 600,
+    "slug": "Computadora-PC-GAMER-Core-I5-10TH"
   },
   {
     "id": 9,
@@ -69,6 +78,7 @@
     "description": "Get qualified support",
     "image": "https://falabella.scene7.com/is/image/FalabellaPE/882730069_2?wid=1500&hei=1500&qlt=70",
     "stock": 10,
-    "price": 1200
+    "price": 1200,
+    "slug": "IdeaPad-5i-Intel"
   }
 ]

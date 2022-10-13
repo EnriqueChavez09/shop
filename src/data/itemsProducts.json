@@ -6,7 +6,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18939854_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1100,
-      "category": 1
+      "category": 1,
+      "slug": "HP-Laptop-15-dy5010la"
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/882729908_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 940,
-      "category": 1
+      "category": 1,
+      "slug": "Vivobook-AMD-Ryzen"
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/882622914_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1300,
-      "category": 1
+      "category": 1,
+      "slug": "IdeaPad-Gaming-3"
     },
     {
       "id": 4,
@@ -33,7 +36,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/882575762_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 2000,
-      "category": 1
+      "category": 1,
+      "slug": "ROG-Gtrix-G15-G513RC"
     },
     {
       "id": 5,
@@ -42,7 +46,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18364945_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 600,
-      "category": 1
+      "category": 1,
+      "slug": "Combo-Laptop-250"
     },
     {
       "id": 6,
@@ -51,7 +56,8 @@
       "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42736954-dFrbeluZ.jpg?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 300,
-      "category": 2
+      "category": 2,
+      "slug": "Samsung-Galaxy-A23"
     },
     {
       "id": 7,
@@ -60,7 +66,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18673479_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 680,
-      "category": 2
+      "category": 2,
+      "slug": "iPhone-SE-64GB-Negro"
     },
     {
       "id": 8,
@@ -69,7 +76,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/19307755_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 690,
-      "category": 2
+      "category": 2,
+      "slug": "Phone-11-64GB"
     },
     {
       "id": 9,
@@ -78,7 +86,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/19206849_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1100,
-      "category": 2
+      "category": 2,
+      "slug": "iPhone-11-128GB"
     },
     {
       "id": 10,
@@ -87,7 +96,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/19154533_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 250,
-      "category": 2
+      "category": 2,
+      "slug": "Galaxy-A03-CORE"
     },
     {
       "id": 11,
@@ -96,7 +106,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/gsc_114363492_983059_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 350,
-      "category": 3
+      "category": 3,
+      "slug": "Simulador-Gamer-Logitech-G-G923"
     },
     {
       "id": 12,
@@ -105,7 +116,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/17605514_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1300,
-      "category": 3
+      "category": 3,
+      "slug": "PlayStation-5-PS5"
     },
     {
       "id": 13,
@@ -114,7 +126,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18913440_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 220,
-      "category": 3
+      "category": 3,
+      "slug": "Consola-PS2"
     },
     {
       "id": 14,
@@ -123,7 +136,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18948098_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 300,
-      "category": 3
+      "category": 3,
+      "slug": "Consola-PS3"
     },
     {
       "id": 15,
@@ -132,7 +146,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18494968_2?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 330,
-      "category": 3
+      "category": 3,
+      "slug": "Consola-Nintendo-Switch"
     },
     {
       "id": 16,
@@ -141,7 +156,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/19329633_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 30,
-      "category": 4
+      "category": 4,
+      "slug": "Audífonos-Skullcandy"
     },
     {
       "id": 17,
@@ -150,7 +166,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18049547_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 33,
-      "category": 4
+      "category": 4,
+      "slug": "Dime-True-wireless"
     },
     {
       "id": 18,
@@ -159,7 +176,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/16964904_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 126,
-      "category": 4
+      "category": 4,
+      "slug": "Audífonos-AirPods"
     },
     {
       "id": 19,
@@ -168,7 +186,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/17375254_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 43,
-      "category": 4
+      "category": 4,
+      "slug": "Audífonos-Over-Ear"
     },
     {
       "id": 20,
@@ -177,7 +196,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18781052_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 20,
-      "category": 4
+      "category": 4,
+      "slug": "Audífonos-Inalámbricos"
     },
     {
       "id": 21,
@@ -186,7 +206,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/19284526_01?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 400,
-      "category": 5
+      "category": 5,
+      "slug": "LG-UHD-4K-ThinQ"
     },
     {
       "id": 22,
@@ -195,7 +216,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/882731997_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1200,
-      "category": 5
+      "category": 5,
+      "slug": "WebOS-4K-UHD-B7021UK6XWIC"
     },
     {
       "id": 23,
@@ -204,7 +226,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18659963_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 430,
-      "category": 5
+      "category": 5,
+      "slug": "LED-Xiaomi"
     },
     {
       "id": 24,
@@ -213,7 +236,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18849404_1?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1100,
-      "category": 5
+      "category": 5,
+      "slug": "Android-4K-Ultra-HD-Smart-TV"
     },
     {
       "id": 25,
@@ -222,7 +246,8 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaPE/18844919_3?wid=1500&hei=1500&qlt=70",
       "stock": 10,
       "price": 1000,
-      "category": 5
+      "category": 5,
+      "slug": "Televisor-65"
     }
   ]
   

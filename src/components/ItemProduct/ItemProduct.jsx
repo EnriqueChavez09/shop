@@ -12,6 +12,7 @@ export const ItemProduct = ({
   price,
   stock,
   description,
+  slug,
 }) => {
   const [amount, setAmount] = useState(1);
   const subtractAmount = () => {
@@ -45,7 +46,9 @@ export const ItemProduct = ({
   return (
     <div className="itemProduct">
       <div className="itemProduct__image">
-        <img src={image} alt="" />
+        <Link to={`/productos/${slug}`}>
+          <img src={image} alt="" />
+        </Link>
       </div>
       <p className="itemProduct__title">{title}</p>
       <div className="itemProduct__number">
@@ -69,17 +72,14 @@ export const ItemProduct = ({
         <p className="itemProduct__number__price">$ {price * amount}</p>
       </div>
       <div className="itemProduct__button">
-        <button
-          className="itemProduct__button__add"
-          onClick={() => addItemToCart()}
-        >
-          <div className="itemProduct__button__add__cart">
+        <Link to="/carrito" className="itemProduct__button__add">
+          <button onClick={() => addItemToCart()}>
             <IconContext.Provider value={{ color: "#FFFFFF", size: "25px" }}>
               <AiOutlineShoppingCart />
             </IconContext.Provider>
-          </div>
-          <Link to="/carrito">Añadir al carrito</Link>
-        </button>
+            Añadir al carrito
+          </button>
+        </Link>
         <div className="itemProduct__button__favorite">
           <IconContext.Provider value={{ color: "#ef5d5d", size: "25px" }}>
             <AiOutlineHeart />

@@ -47,30 +47,36 @@
   &__button {
     display: flex;
     align-items: center;
+
     &__add {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 5px 7px 5px 10px;
-      width: 70%;
-      height: 40px;
-      background-color: $primary-color;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      &__cart {
-        margin: 0 5px;
-      }
-      a {
-        margin: 0;
+      text-decoration: none;
+      margin: 0 0 0 auto;
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $secondary-color;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px 7px 5px 10px;
+        width: 150;
+        height: 40px;
         color: #ffffff;
-        text-decoration: none;
+        margin: 0;
         font-size: 14px;
+        &:hover {
+          background-color: $primary-color;
+        }
         @include breakpoints(lg) {
           margin: 0 5px;
-          color: #ffffff;
           font-size: 16px;
-          text-decoration: none;
+        }
+        svg {
+          margin: 0 5px;
         }
       }
     }

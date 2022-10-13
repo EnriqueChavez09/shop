@@ -1,0 +1,57 @@
+.productRetrieveInformation {
+  background-color: #ffffff;
+  width: 300px;
+  margin: 40px auto 40px 0;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  &__title {
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  &__counter {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    &__less {
+      @include button_counter();
+    }
+    p {
+      font-size: 16px;
+      margin: 0 5px;
+    }
+    &__more {
+      @include button_counter();
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    height: 80px;
+    align-items: center;
+    button {
+      background-color: $secondary-color;
+      border: none;
+      font-size: 20px;
+      color: #ffffff;
+      width: 200px;
+      height: 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+    &__favorite {
+      height: 35px;
+      width: 40px;
+      border-radius: 5px;
+      border: 1px solid #ef5d5d;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

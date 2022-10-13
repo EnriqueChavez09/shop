@@ -10,12 +10,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
+import Product from "./pages/Product";
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
         <Route path="catalogos" element={<Catalog />} />
+        <Route path="productos/:productSlug" element={<Product />} />
         <Route path="contacto" element={<Contact />} />
         <Route path="blogs" element={<Blog />} />
         <Route path="carrito" element={<Cart />} />

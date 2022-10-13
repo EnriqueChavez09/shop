@@ -9,3 +9,4 @@ export * from "./HomeQuality/HomeQuality";
 export * from "./HomeRecommended/HomeRecommended";
 export * from "./HomeWelcome/HomeWelcome";
 export * from "./CatalogProduct/CatalogProduct";
+export * from "./ProductRetrieve/ProductRetrieve";

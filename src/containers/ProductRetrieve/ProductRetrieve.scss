@@ -1,0 +1,16 @@
+.productRetrieve {
+  display: flex;
+  background-color: $tertiary-color;
+  &__image {
+    margin: 40px 0 40px auto;
+    border-radius: 20px 0 0 20px;
+    width: 500px;
+    height: 500px;
+    img {
+      border-radius: 20px 0 0 20px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

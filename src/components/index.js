@@ -15,3 +15,4 @@ export * from "./ItemProduct/ItemProduct";
 export * from "./NavBarDesktop/NavBarDesktop";
 export * from "./NavBarMobile/NavBarMobile";
 export * from "./TotalItemAdd/TotalItemAdd";
+export * from "./ProductRetrieveInformation/ProductRetrieveInformation";

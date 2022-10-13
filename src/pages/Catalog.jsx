@@ -1,3 +1,4 @@
+import { CatalogProduct } from "../containers";
 import { BasicLayout } from "../layouts";
 
 export default function Catalog() {
@@ -6,7 +7,7 @@ export default function Catalog() {
     <>
       <BasicLayout>
         <main>
-          <h1>Catálogo :)</h1>
+          <CatalogProduct />
         </main>
       </BasicLayout>
     </>

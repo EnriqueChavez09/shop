@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const ItemList = ({ item }) => {
   return (
     <li className="itemList">
-      <a href={item.path}>{item.title}</a>
+      <Link to={item.path}>{item.title}</Link>
     </li>
   );
 };

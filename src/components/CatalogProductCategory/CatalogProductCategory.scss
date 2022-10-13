@@ -1,0 +1,11 @@
+.catalogProductCategory {
+  &__title {
+    font-size: 25px;
+    margin: 10px auto;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

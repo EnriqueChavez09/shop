@@ -4,6 +4,7 @@ export * from "./CartDetailSummary/CartDetailSummary";
 export * from "./CartDetailSummaryCard/CartDetailSummaryCard";
 export * from "./CartWithoutItemContent/CartWithoutItemContent";
 export * from "./CartWithoutItemIcon/CartWithoutItemIcon";
+export * from "./CatalogProductCategory/CatalogProductCategory";
 export * from "./ContactFormInput/ContactFormInput";
 export * from "./ContactFormTitle/ContactFormTitle";
 export * from "./FooterDesktopSocial/FooterDesktopSocial";
